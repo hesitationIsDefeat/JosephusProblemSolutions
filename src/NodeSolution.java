@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class JosephusGame {
+public class NodeSolution {
     private final List<Node> nodes;
-    public JosephusGame(int number) {
+    public NodeSolution(int number) {
         if (number < 1) throw new IllegalArgumentException("Player number must be greater than 0");
         else {
             nodes = new ArrayList<>(number);
